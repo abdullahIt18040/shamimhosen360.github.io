@@ -1,0 +1,213 @@
+/*		Default Layout: 1000px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+.mean{
+	width:1000px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.mean {
+width: 768px;
+}
+.nave{
+	width:768px;
+}
+.mar{width:768px;
+}
+.fast{
+	width:768px;
+}
+.wrap{
+	width:768px;
+}
+.i{
+	width:768px;
+}
+.video{
+	width:768px;
+	float:left;
+}
+.audio{
+	width:768px;
+}
+.from{
+	width:768px;
+}
+.footer{
+	width:768px;
+}
+.name{
+	width:768px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.mean {
+width: 320px;
+}
+.nave{
+	width:320px;
+}
+.mar{width:320px;
+}
+.fast{
+	width:320px;
+}
+.wrap{
+	width:320px;
+	
+}
+.ani{
+	display:none;
+}
+.i{
+	width:320px;
+}
+.video{
+	width:320px;
+	float:left;
+}
+.audio{
+	width:320px;
+}
+.from{
+	width:320px;
+}
+.footer{
+	width:320px;
+}
+.ani{
+display:none;}
+
+.name{
+	font-size:0px;
+}
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.mean {
+width: 480px;
+}
+.nave{
+	width:480px;
+}
+.mar{width:480px;
+}
+.fast{
+	width:480px;
+}
+.logo{
+	width:480px;
+}
+.wrap{
+	width:480px;
+}
+.i{
+	width:480px;
+}
+.video{
+	width:480px;
+	float:left;
+}
+.audio{
+	width:480px;
+}
+.from{
+	width:480px;
+}
+.footer{
+	width:480px;
+}
+
+.ani{
+display:none;}
+.logo{
+	display:none;
+}
+
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+	
+}
